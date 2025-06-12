@@ -13,8 +13,12 @@ a {
   text-decoration: none;
   color: inherit;
 }
+.app {
+  width: 80%;
+  margin: auto;
+}
 
-@theme {
+:root {
   --color-primary: #4c2b0b;
   --color-primary-light: #f4a300;
   --color-secondary: #ffffff;
