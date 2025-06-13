@@ -4,7 +4,10 @@ const Header = () => {
   return (
     <div className="header">
       <div className="header-contents">
-        <h2>Fresh Flavors, Fast Delivery – Right at Your Doorstep!</h2>
+        <h2>
+          Fresh Flavors, Fast Delivery – Right at Your{" "}
+          <span style={{ color: "#f4a300" }}>Doorstep!</span>
+        </h2>
         <p>
           At CloveBite, we bring delicious meals from your favorite restaurants
           straight to your doorstep. Whether you’re craving a hearty lunch or a

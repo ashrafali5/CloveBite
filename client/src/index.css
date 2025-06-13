@@ -18,6 +18,15 @@ a {
   margin: auto;
 }
 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 :root {
   --color-primary: #4c2b0b;
   --color-primary-light: #f4a300;
